@@ -3,7 +3,7 @@
 # set = set(list) = unique list
 
 #to open file
-f = open("C:\\Users\\kso\\PycharmProjects\\AdventOfCode\\Day2Input.txt", "r")
+f = open(r"C:\Users\kso\PycharmProjects\AdventOfCode2018\Day 2\Day2Input.txt", "r")
 
 # counter
 twocount = 0
@@ -21,6 +21,8 @@ for line in f:
     else:
         pass
 
-print ('two count: ' + twocount)
-print ('three count: ' + threecount)
+print ('two count: ' + str(twocount))
+print ('three count: ' + str(threecount))
 print (twocount*threecount)
+
+print("Drew is a smooth operator.\n" * 100)
