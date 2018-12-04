@@ -21,8 +21,6 @@ for line in f:
     else:
         pass
 
-print ('two count: ' + str(twocount))
-print ('three count: ' + str(threecount))
+print ('two count:', twocount)
+print ('three count:', threecount)
 print (twocount*threecount)
-
-print("Drew is a smooth operator.\n" * 100)
